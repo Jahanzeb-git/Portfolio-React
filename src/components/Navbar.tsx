@@ -47,7 +47,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
             whileHover={{ scale: 1.05 }}
             className="text-xl font-bold dark:text-white"
           >
-            <Link to="/">JA</Link>
+            <Link to="/">Jahanzeb Ahmed</Link>
           </motion.div>
 
           {/* Desktop Navigation */}
