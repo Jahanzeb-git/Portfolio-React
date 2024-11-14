@@ -5,9 +5,13 @@
 @layer base {
   body {
     @apply antialiased;
+   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+
+  html {
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
   }
 }
-
 @layer utilities {
   .backdrop-blur-3xl {
     backdrop-filter: blur(64px);
