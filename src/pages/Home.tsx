@@ -45,6 +45,14 @@ const projects = [
     source: 'https://github.com/example',
     tags: ['OpenCV', 'YOLO', 'Kubernetes'],
   },
+  {
+    title: 'Computer Vision Platform',
+    description: 'Real-time object detection and tracking system using state-of-the-art computer vision algorithms.',
+    image: 'https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&q=80&w=800',
+    demo: 'https://demo.example.com',
+    source: 'https://github.com/example',
+    tags: ['OpenCV', 'YOLO', 'Kubernetes'],
+  },
 ];
 
 export default function Home() {
@@ -89,8 +97,8 @@ export default function Home() {
                 Data Science Portfolio
               </h1>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                Transforming complex data into actionable insights through innovative solutions
-                and cutting-edge technology.
+               "Welcome to my portfolio! Here, I showcase my expertise in data science, where I transform data into actionable insights. With a foundation in machine learning, data analysis, and a strong commitment to leveraging data for business growth, I aim to solve real-world problems and drive impactful solutions. 
+                Explore my projects to see how I turn complex datasets into clear, powerful results."
               </p>
             </motion.div>
 
