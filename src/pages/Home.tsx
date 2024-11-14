@@ -6,7 +6,7 @@ import { Footer } from '../components/Footer';
 
 const projects = [
   {
-    title: 'AI-Powered Data Analysis',
+    title: 'AI-Powered Data Science',
     description: 'Advanced data analysis platform using machine learning algorithms for predictive analytics.',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
     demo: 'https://demo.example.com',
