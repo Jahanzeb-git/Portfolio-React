@@ -5,11 +5,6 @@
 @layer base {
   body {
     @apply antialiased;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
-  }
-
-  html {
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
   }
 }
 
@@ -17,15 +12,4 @@
   .backdrop-blur-3xl {
     backdrop-filter: blur(64px);
   }
-}
-
-/* Custom light and dark themes */
-html.light {
-  background-color: #fff; /* Light theme background */
-  color: #333; /* Light theme text color */
-}
-
-html.dark {
-  background-color: #2d3748; /* Dark theme background */
-  color: #f7fafc; /* Dark theme text color */
 }
