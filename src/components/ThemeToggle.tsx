@@ -13,7 +13,7 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({ isDark, toggleTheme })
       whileHover={{ scale: 1.3 }}
       whileTap={{ scale: 0.9 }}
       onClick={toggleTheme}
-      className="p-2 rounded-full bg-opacity-20 backdrop-blur-sm"
+      className="p-2 rounded-full bg-opacity-20 backdrop-blur-sm transition-colors duration-300"
     >
       {isDark ? (
         <Sun className="w-6 h-6 text-yellow-400" />
