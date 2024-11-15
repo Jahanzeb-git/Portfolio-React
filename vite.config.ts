@@ -7,10 +7,4 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  build: {
-    rollupOptions: {
-      input: './index.html', // Ensures correct entry point
-    },
-  },
-  publicDir: './', // Makes root directory act as the "public" directory
 });
